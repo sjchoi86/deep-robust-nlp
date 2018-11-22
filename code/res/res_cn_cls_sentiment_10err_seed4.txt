@@ -1,0 +1,12 @@
+Text name: res/res_cn_cls_sentiment_10err_seed4.txt
+[00/20] [Loss] train:-0.012 test:-0.014 [Accr] train:72.8% test:77.2% maxTest:77.2%
+[02/20] [Loss] train:-0.032 test:-0.033 [Accr] train:74.6% test:79.0% maxTest:79.0%
+[04/20] [Loss] train:-0.048 test:-0.049 [Accr] train:75.3% test:79.3% maxTest:79.3%
+[06/20] [Loss] train:-0.069 test:-0.069 [Accr] train:75.6% test:79.2% maxTest:79.3%
+[08/20] [Loss] train:-0.094 test:-0.093 [Accr] train:76.1% test:79.2% maxTest:79.3%
+[10/20] [Loss] train:-0.120 test:-0.117 [Accr] train:75.7% test:78.7% maxTest:79.3%
+[12/20] [Loss] train:-0.157 test:-0.151 [Accr] train:76.2% test:78.8% maxTest:79.3%
+[14/20] [Loss] train:-0.205 test:-0.197 [Accr] train:77.3% test:79.1% maxTest:79.3%
+[16/20] [Loss] train:-0.234 test:-0.225 [Accr] train:77.6% test:78.8% maxTest:79.3%
+[18/20] [Loss] train:-0.295 test:-0.284 [Accr] train:77.9% test:78.7% maxTest:79.3%
+[20/20] [Loss] train:-0.322 test:-0.310 [Accr] train:77.4% test:77.9% maxTest:79.3%

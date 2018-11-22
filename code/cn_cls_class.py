@@ -173,7 +173,7 @@ class cn_cls_class(object):
         _c_vars = [var for var in _g_vars if '%s/'%(self.name) in var.name]
         self.l2_reg = self.l2_reg_coef*tf.reduce_sum(tf.stack([tf.nn.l2_loss(v) for v in _c_vars])) # []
         # Total loss
-        self.loss_total = tf.reduce_mean(self.loss_fit+self.loss_reg+self.kl_reg+self.l2_reg) # [1]
+        self.loss_total = 0.1*tf.reduce_mean(self.loss_fit+self.loss_reg+self.kl_reg+self.l2_reg) # [1]
         if self.USE_SGD:
             # _optm = tf.train.GradientDescentOptimizer(learning_rate=self.lr)
             _optm = tf.train.MomentumOptimizer(learning_rate=self.lr,momentum=self.momentum)
@@ -273,5 +273,6 @@ class cn_cls_class(object):
                        %(epoch,_max_epoch,train_loss,test_loss
                          ,train_accr*100,test_accr*100,max_test_accr*100))
                 print_n_txt(_f=f,_chars=strTemp,_DO_PRINT=_VERBOSE_TRAIN)
+                self.train_accr,self.test_accr = train_accr,test_accr
         # Done 
         print ("Training finished.")

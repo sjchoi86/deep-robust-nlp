@@ -161,5 +161,6 @@ class mlp_cls_class(object):
                        %(epoch,_max_epoch,train_loss,test_loss
                          ,train_accr*100,test_accr*100,max_test_accr*100))
                 print_n_txt(_f=f,_chars=strTemp,_DO_PRINT=_VERBOSE_TRAIN)
+                self.train_accr,self.test_accr = train_accr,test_accr
         # Done 
         print ("Training finished.")

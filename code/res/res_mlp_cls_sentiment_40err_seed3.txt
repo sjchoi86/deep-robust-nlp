@@ -1,0 +1,12 @@
+Text name: res/res_mlp_cls_sentiment_40err_seed3.txt
+[00/20] [Loss] train:0.680 test:0.639 [Accr] train:56.9% test:73.2% maxTest:73.2%
+[02/20] [Loss] train:0.669 test:0.625 [Accr] train:59.2% test:71.6% maxTest:73.2%
+[04/20] [Loss] train:0.651 test:0.623 [Accr] train:62.4% test:69.7% maxTest:73.2%
+[06/20] [Loss] train:0.628 test:0.648 [Accr] train:66.2% test:62.7% maxTest:73.2%
+[08/20] [Loss] train:0.600 test:0.668 [Accr] train:68.8% test:59.5% maxTest:73.2%
+[10/20] [Loss] train:0.574 test:0.673 [Accr] train:71.0% test:59.6% maxTest:73.2%
+[12/20] [Loss] train:0.570 test:0.720 [Accr] train:69.8% test:57.4% maxTest:73.2%
+[14/20] [Loss] train:0.513 test:0.706 [Accr] train:76.0% test:58.7% maxTest:73.2%
+[16/20] [Loss] train:0.503 test:0.718 [Accr] train:75.4% test:59.1% maxTest:73.2%
+[18/20] [Loss] train:0.481 test:0.755 [Accr] train:77.3% test:56.7% maxTest:73.2%
+[20/20] [Loss] train:0.436 test:0.754 [Accr] train:81.7% test:57.2% maxTest:73.2%
