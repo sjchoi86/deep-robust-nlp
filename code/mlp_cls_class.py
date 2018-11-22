@@ -63,7 +63,7 @@ class mlp_cls_class(object):
     
     def build_graph(self):
         # Cross-entropy loss
-        self._loss_ce = tf.nn.softmax_cross_entropy_with_logits(labels=self.t,logits=self.out) # [N]
+        self._loss_ce = tf.nn.softmax_cross_entropy_with_logits_v2(labels=self.t,logits=self.out) # [N]
         self.loss_ce = tf.reduce_mean(self._loss_ce) # []
         # Weight decay regularizer
         _g_vars = tf.global_variables()

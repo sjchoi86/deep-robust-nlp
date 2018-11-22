@@ -2,6 +2,7 @@ import os,re
 import pandas as pd
 import tensorflow as tf
 import tensorflow_hub as hub
+import numpy as np
 
 # Load all files from a directory in a DataFrame.
 def load_directory_data(directory):
@@ -58,3 +59,16 @@ def gpusession():
     sess = tf.Session(config=config)
     return sess
 
+def random_flip_target(_t_train,_rate,_seed=0):
+    _t_random = np.copy(_t_train)
+    n_train = np.shape(_t_train)[0] # n-train
+    r_idx = np.random.permutation(n_train)[:(int)(n_train*_rate)] # random indices
+    _t_random[r_idx] = [1,1]-_t_train[r_idx] # flip
+    return _t_random
+
+def create_gradient_clipping(loss,optm,vars,clipVal=1.0):
+    grads, vars = zip(*optm.compute_gradients(loss, var_list=vars))
+    grads = [None if grad is None else tf.clip_by_value(grad,-clipVal,clipVal) for grad in grads]
+    op = optm.apply_gradients(zip(grads, vars))
+    train_op = tf.tuple([loss], control_inputs=[op])
+    return train_op[0]
