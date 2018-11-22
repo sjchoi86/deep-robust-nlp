@@ -1,0 +1,12 @@
+Text name: res/res_mlp_cls_sentiment.txt
+[00/10] [Loss] train:0.425 test:0.444 [Accr] train:80.7% test:79.1% maxTest:79.1%
+[01/10] [Loss] train:0.417 test:0.443 [Accr] train:80.9% test:79.1% maxTest:79.1%
+[02/10] [Loss] train:0.405 test:0.438 [Accr] train:81.4% test:79.4% maxTest:79.4%
+[03/10] [Loss] train:0.391 test:0.433 [Accr] train:82.6% test:79.7% maxTest:79.7%
+[04/10] [Loss] train:0.377 test:0.433 [Accr] train:83.3% test:79.8% maxTest:79.8%
+[05/10] [Loss] train:0.353 test:0.427 [Accr] train:84.3% test:80.2% maxTest:80.2%
+[06/10] [Loss] train:0.350 test:0.434 [Accr] train:84.4% test:79.9% maxTest:80.2%
+[07/10] [Loss] train:0.338 test:0.434 [Accr] train:85.0% test:80.2% maxTest:80.2%
+[08/10] [Loss] train:0.337 test:0.432 [Accr] train:85.2% test:80.2% maxTest:80.2%
+[09/10] [Loss] train:0.339 test:0.431 [Accr] train:85.2% test:80.3% maxTest:80.3%
+[10/10] [Loss] train:0.337 test:0.433 [Accr] train:85.2% test:80.2% maxTest:80.3%
