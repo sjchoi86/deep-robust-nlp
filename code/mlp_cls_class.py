@@ -121,7 +121,7 @@ class mlp_cls_class(object):
                 if self.USE_MIXUP:
                     x_batch = _x_train[start:end,:]
                     t_batch = _t_train[start:end,:]
-                    x_batch,t_batch = mixup(x_batch,t_batch,32)
+                    x_batch,t_batch = mixup(x_batch,t_batch,16) # 
                 else:
                     x_batch = _x_train[start:end,:]
                     t_batch = _t_train[start:end,:]

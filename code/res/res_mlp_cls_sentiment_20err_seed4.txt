@@ -1,12 +1,12 @@
 Text name: res/res_mlp_cls_sentiment_20err_seed4.txt
-[00/20] [Loss] train:0.605 test:0.517 [Accr] train:68.8% test:78.4% maxTest:78.4%
-[02/20] [Loss] train:0.586 test:0.500 [Accr] train:70.3% test:78.8% maxTest:78.8%
-[04/20] [Loss] train:0.567 test:0.491 [Accr] train:71.6% test:78.4% maxTest:78.8%
-[06/20] [Loss] train:0.553 test:0.498 [Accr] train:72.3% test:76.8% maxTest:78.8%
-[08/20] [Loss] train:0.520 test:0.501 [Accr] train:75.0% test:77.2% maxTest:78.8%
-[10/20] [Loss] train:0.516 test:0.538 [Accr] train:74.5% test:73.4% maxTest:78.8%
-[12/20] [Loss] train:0.465 test:0.522 [Accr] train:78.4% test:75.1% maxTest:78.8%
-[14/20] [Loss] train:0.459 test:0.561 [Accr] train:78.2% test:72.2% maxTest:78.8%
-[16/20] [Loss] train:0.443 test:0.573 [Accr] train:79.3% test:72.3% maxTest:78.8%
-[18/20] [Loss] train:0.438 test:0.605 [Accr] train:79.4% test:71.1% maxTest:78.8%
-[20/20] [Loss] train:0.378 test:0.588 [Accr] train:83.9% test:71.4% maxTest:78.8%
+[00/20] [Loss] train:0.627 test:0.529 [Accr] train:65.9% test:75.3% maxTest:75.3%
+[02/20] [Loss] train:0.593 test:0.503 [Accr] train:69.4% test:78.3% maxTest:78.3%
+[04/20] [Loss] train:0.579 test:0.504 [Accr] train:70.6% test:77.7% maxTest:78.3%
+[06/20] [Loss] train:0.553 test:0.492 [Accr] train:72.2% test:77.8% maxTest:78.3%
+[08/20] [Loss] train:0.531 test:0.513 [Accr] train:73.7% test:76.0% maxTest:78.3%
+[10/20] [Loss] train:0.498 test:0.514 [Accr] train:76.7% test:75.7% maxTest:78.3%
+[12/20] [Loss] train:0.489 test:0.511 [Accr] train:77.4% test:75.8% maxTest:78.3%
+[14/20] [Loss] train:0.483 test:0.519 [Accr] train:77.7% test:75.3% maxTest:78.3%
+[16/20] [Loss] train:0.482 test:0.517 [Accr] train:77.6% test:75.3% maxTest:78.3%
+[18/20] [Loss] train:0.481 test:0.519 [Accr] train:77.9% test:75.2% maxTest:78.3%
+[20/20] [Loss] train:0.482 test:0.518 [Accr] train:77.8% test:75.3% maxTest:78.3%

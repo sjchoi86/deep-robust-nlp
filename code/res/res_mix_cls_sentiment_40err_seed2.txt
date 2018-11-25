@@ -1,0 +1,12 @@
+Text name: res/res_mix_cls_sentiment_40err_seed2.txt
+[00/20] [Loss] train:0.685 test:0.646 [Accr] train:55.7% test:70.8% maxTest:70.8%
+[02/20] [Loss] train:0.680 test:0.633 [Accr] train:56.6% test:72.8% maxTest:72.8%
+[04/20] [Loss] train:0.677 test:0.637 [Accr] train:57.9% test:72.8% maxTest:72.8%
+[06/20] [Loss] train:0.674 test:0.640 [Accr] train:58.6% test:72.0% maxTest:72.8%
+[08/20] [Loss] train:0.670 test:0.634 [Accr] train:59.0% test:70.1% maxTest:72.8%
+[10/20] [Loss] train:0.666 test:0.628 [Accr] train:60.1% test:72.3% maxTest:72.8%
+[12/20] [Loss] train:0.664 test:0.628 [Accr] train:60.7% test:72.3% maxTest:72.8%
+[14/20] [Loss] train:0.662 test:0.628 [Accr] train:61.1% test:72.0% maxTest:72.8%
+[16/20] [Loss] train:0.662 test:0.628 [Accr] train:61.1% test:71.8% maxTest:72.8%
+[18/20] [Loss] train:0.662 test:0.628 [Accr] train:61.2% test:71.9% maxTest:72.8%
+[20/20] [Loss] train:0.662 test:0.628 [Accr] train:61.3% test:71.9% maxTest:72.8%
